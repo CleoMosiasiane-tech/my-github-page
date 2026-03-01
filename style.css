@@ -1,23 +1,27 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    color:#333;
-    background-color: aliceblue;
+    font-family:Arial, sans-serif;
+    color:lightpink;
+    background: linear-gradient(lightgoldenrodyellow, lightblue);
     margin: 0;
-    padding: 0;
+    padding: 10px;
     line-height: 1.6;
+    text-align: center;
 }
 header{
-    background-color: #4caf50;
-    color: white;
+    background-color: lightpink;
+    color: black;
     padding: 20px;
     text-align: center;
 }
 header h1{
     margin: 0;
+    text-align: center;
+    color: black;
+    padding: auto;
 }
 nav a{
-    color: white;
-    text-decoration: none;
+    color: lightpink;
+    text-decoration: double;
     margin: 010px;
 }
 nav a :hover{
@@ -27,16 +31,21 @@ main{
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    text-decoration: none;
+    text-align:start;
 }
 main img{
     max-width: 100%;
     height: auto;
-    display: block;
+    display: inline-flex;
     margin: 20px 0;
+    box-shadow: 04px 10px rgb(0,0, 0.08);
+    object-fit: cover;
+    border-radius: 12px;
 }
 footer{
-    background-color: #333;
-    color: white;
+    background-color:lightpink;
+    color: black;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -47,17 +56,51 @@ p{
     font-size: 1.1em;
 }
 a{
-    color: #4caf50;
-    text-decoration: none;
+    color: #af4c66;
+    text-decoration: wavy;
 }
 a:hover{
     text-decoration: underline;
 }
 img{
-    border: 5px solid #4caf50;
+    border: 5px solid navajowhite;
     border-radius: 10px;
 }
 main a [href="mailto:"]{
-    color: #ff5722;
+    color:lightgoldenrodyellow;
     font-weight: bold;
+    text-align: center;
+}
+.btn-pink{
+    background: #ffcad4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.btn-pink:hover{
+    background:#f4a6b6
+}
+.about-page{
+    background-image: url(https://www.shutterstock.com/image-photo/young-beautiful-asian-woman-baking-600nw-2033416115.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+.about-box{
+    max-width: 800px;
+    margin: 80px auto;
+    background: rgba(255,255,255,0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.about-box h2{
+    text-align: center;
+    color: #d63384;
+}
+.about-box p{
+    font-size: 17px;
+    line-height: 1.8;
 }
